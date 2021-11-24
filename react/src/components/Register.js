@@ -60,15 +60,15 @@ function Register(){
             <form onSubmit={submitForm} noValidate>
                 <div className="form-control">
                     <label>Full Name</label>
-                    <input name="name" required type="text" value={state.userInfo.name} onChange={onChangeValue} placeholder="Enter your name"/>
+                    <input className="input" name="name" required type="text" value={state.userInfo.name} onChange={onChangeValue} placeholder="Enter your name"/>
                 </div>
                 <div className="form-control">
                     <label>Email</label>
-                    <input name="email" required type="email" value={state.userInfo.email} onChange={onChangeValue} placeholder="Enter your email"/>
+                    <input className="input" name="email" required type="email" value={state.userInfo.email} onChange={onChangeValue} placeholder="Enter your email"/>
                 </div>
                 <div className="form-control">
                     <label>Password</label>
-                    <input name="password" required type="password" value={state.userInfo.password} onChange={onChangeValue} placeholder="Enter your password"/>
+                    <input  className="input" name="password" required type="password" value={state.userInfo.password} onChange={onChangeValue} placeholder="Enter your password"/>
                 </div>
                 {errorMsg}
                 {successMsg}

@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import {MyContext} from '../contexts/MyContext'
 
-// Importing the Login & Register Componet
+// Importing the Login & Register Component
 import Login from './Login'
 import Register from './Register'
 

@@ -11,7 +11,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:  #ccffff;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   padding: 20px;
   color: #3b5441;
 }
@@ -23,16 +26,13 @@ code {
 
 .userInfo,
 ._loginRegister{
-  background-color: #ffffff;
-  padding: 20px;
-  max-width: 400px;
-  margin: 0 auto;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
-
-._loginRegister h1{
-  text-align: center;
-  margin: 0 0 20px 0;
+  background-color: rgb(222 222 222 / 10%);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    backdrop-filter: blur(3px);
 }
 
 ._loginRegister .form-control{
@@ -66,6 +66,10 @@ code {
 [type="password"]:focus
 {
   border-color: #107a8b;
+}
+.input {
+  background: hsl(0deg 0% 87% / 50%);
+    border-radius: 10px;
 }
 
 ._navBtn button,
@@ -130,8 +134,8 @@ code {
 }
 .userInfo button{
   margin-top: 5px;
-  background: #30fff7;
-  color: black;
+  background: blue;
+  color: white;
   padding: 10px 20px;
   font-size: 16px;
   border: 5px solid rgba(0, 0, 0, .1);

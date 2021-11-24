@@ -65,11 +65,11 @@ function Login(){
             <form  onSubmit={submitForm} noValidate>
                 <div className="form-control">
                     <label>Email</label>
-                    <input name="email" type="email" required placeholder="Enter your email" value={state.userInfo.email} onChange={onChangeValue} />
+                    <input className="input" name="email" type="email" required placeholder="Enter your email" value={state.userInfo.email} onChange={onChangeValue} />
                 </div>
                 <div className="form-control">
                     <label>PassWord</label>
-                    <input name="password" type="password" required placeholder="Enter your password" value={state.userInfo.password} onChange={onChangeValue} />
+                    <input className="input" name="password" type="password" required placeholder="Enter your password" value={state.userInfo.password} onChange={onChangeValue} />
                 </div>
                 {errorMsg}
                 {successMsg}
