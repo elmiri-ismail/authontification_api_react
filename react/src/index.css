@@ -130,8 +130,8 @@ code {
 }
 .userInfo button{
   margin-top: 5px;
-  background: #ff304f;
-  color: #ffffff;
+  background: #30fff7;
+  color: black;
   padding: 10px 20px;
   font-size: 16px;
   border: 5px solid rgba(0, 0, 0, .1);
@@ -141,8 +141,8 @@ code {
   cursor: pointer;
   transition: background .3s;
 }
-.userInfo button:hover{
-  border-color: #ff304f;
-  color: #ff304f;
+.userInfo button:hover {
+  border-color: #30fff7;
+  color: #3b5441;
   background: #ffffff;
 }

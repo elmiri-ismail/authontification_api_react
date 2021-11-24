@@ -15,7 +15,7 @@ function Home(){
     {
         return(
             <div className="userInfo">
-                <div className="_img"><span role="img" aria-label="User Image">👦</span></div>
+                <div className="_img"><span role="img" aria-label="User Image"></span></div>
                 <h1>{theUser.name}</h1>
                 <div className="_email"><span>{theUser.email}</span></div>
                 <button onClick={logoutUser}>Logout</button>
