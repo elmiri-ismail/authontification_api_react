@@ -1,4 +1,5 @@
 <?php
+//After login, this page is accessible with a valid token.
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: access");
 header("Access-Control-Allow-Methods: POST");

@@ -1,4 +1,7 @@
 <?php
+/*For handling the JWT actions like encoding and decoding token
+Database.php*/
+
 require __DIR__.'/../jwt/JWT.php';
 require __DIR__.'/../jwt/ExpiredException.php';
 require __DIR__.'/../jwt/SignatureInvalidException.php';
@@ -16,7 +19,7 @@ class JwtHandler {
     public function __construct()
     {
         // set your default time-zone
-        date_default_timezone_set('Asia/Kolkata');
+        date_default_timezone_set('Africa/Casablanca');
         $this->issuedAt = time();
         
         // Token Validity (3600 second = 1hr)

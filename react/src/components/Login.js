@@ -27,7 +27,7 @@ function Login(){
         });
     }
 
-    // On Submit Login From
+    // On Submit Login Form
     const submitForm = async (event) => {
         event.preventDefault();
         const data = await loginUser(state.userInfo);

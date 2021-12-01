@@ -30,7 +30,7 @@ code {
     padding: 20px;
     max-width: 400px;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
     backdrop-filter: blur(3px);
 }
@@ -146,7 +146,7 @@ code {
   transition: background .3s;
 }
 .userInfo button:hover {
-  border-color: #30fff7;
-  color: #3b5441;
+  border-color: blue;
+  color: blue;
   background: #ffffff;
 }

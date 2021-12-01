@@ -1,6 +1,5 @@
 <?php 
 class Database {
-    //  ACCORDING  DATABASE
     private $db_host = 'localhost';
     private $db_name = 'php_auth_api';
     private $db_username = 'root';

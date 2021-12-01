@@ -1,10 +1,12 @@
 <?php
+//For validating the token (checking if the token is valid or not)
 require __DIR__.'/../classes/JwtHandler.php';
 class Auth extends JwtHandler{
 
     protected $db;
     protected $headers;
     protected $token;
+    
     public function __construct($db,$headers) {
         parent::__construct();
         $this->db = $db;
